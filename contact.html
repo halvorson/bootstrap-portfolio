@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contact me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link href="assets/css/reset.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="row hidden-xs">
+
+				<div class="navbar-header">
+					<a class="navbar-brand" id="name" href="#">Michael Halvorson</a>
+				</div>
+
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li> 
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<div class="row visible-xs">
+				<div class="col-xs-12 navbar-brand text-center" id="name">Michael Halvorson</div>
+			</div>
+			<div class="row visible-xs nav navbar-nav">
+				<div class="col-xs-4">
+					<li class="take-your-space text-center"	><a class="navbar-link" href="index.html">About</a></li>
+				</div>
+				<div class="col-xs-4">
+					<li class="take-your-space text-center"><a class="navbar-link" href="portfolio.html">Portfolio</a></li>
+				</div>
+				<div class="col-xs-4">
+					<li class="take-your-space text-center"><a class="navbar-link" href="contact.html">Contact</a></li>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 contentbox">
+				<h2>Contact</h2>
+				<form class="contact-me" id="contact-me">
+					Name
+					<br>
+					<input type="text" name="name" placeholder="John Smith" required>
+					<br>
+					Email
+					<br>
+					<input type="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="newbie@powhatan.org" required>
+					<br>
+					Message
+					<br>
+					<textarea form="contact-me" type="text" name="message" placeholder="Enter your message here." required></textarea>
+					<br>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+			<div class="col-md-4 col-md-offset-1 contentbox">
+				<h3>Connect with me</h3>
+				<div class="row">
+					<div class="col-xs-3">
+						<a href="https://www.linkedin.com/in/michaelthalvorson/" target="_blank"><img class="social-link img-responsive img-centered" alt="linkedin link" src="assets/images/link-linkedin.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="https://github.com/halvorson/" target="_blank"><img class="social-link img-responsive img-centered" alt="github link" src="assets/images/link-github.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="http://stackoverflow.com/users/3241536/halvorson" target="_blank"><img class="social-link img-responsive img-centered" alt="stack overflow link" src="assets/images/link-stackoverflow.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="https://mail.google.com/mail/?view=cm&fs=1&to=michael.t.halvorson@gmail.com&su=Hi" target="_blank"><img class="social-link img-responsive img-centered" alt="email link" src="assets/images/link-mail.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<footer class="footer">
+		<div class="container text-center">
+					<p class="text-muted">&copy;2017 Michael Halvorson</p>
+		</div>
+	</footer>
+
+</body>
+
+
+</html>
